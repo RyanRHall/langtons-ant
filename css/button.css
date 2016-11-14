@@ -1,0 +1,42 @@
+button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 2px 2px #888;
+}
+
+button:hover {
+  opacity: 0.8
+}
+
+button:active{
+  box-shadow: 1px 1px 1px #888;
+}
+
+.start:after {
+  content: "Start"
+}
+
+.play:after {
+  content: "Play"
+}
+
+.pause:after {
+  content: "Pause"
+}
+
+.start {
+  background-color: LightSeaGreen;
+}
+
+.play {
+  background-color: lightgreen;
+}
+
+.pause {
+  background-color: lightyellow;
+}
