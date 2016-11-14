@@ -1,4 +1,6 @@
 button {
+  position: relative;
+  bottom: 4px;
   font-size: 16px;
   font-weight: bold;
   padding: 5px 10px;
@@ -30,13 +32,13 @@ button:active{
 }
 
 .start {
-  background-color: LightSeaGreen;
+  background-color: #DB162F;
 }
 
 .play {
-  background-color: lightgreen;
+  background-color: #20BF55;
 }
 
 .pause {
-  background-color: lightyellow;
+  background-color: #FFD166;
 }

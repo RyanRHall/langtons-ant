@@ -1,0 +1,38 @@
+header {
+  padding: 10px 0 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header > div {
+  display: flex;
+  align-items: baseline;
+}
+
+header div:first-of-type > * {
+  margin-right: 50px;
+}
+
+header div:last-of-type {
+  justify-content: flex-end;
+}
+
+header div:last-of-type > * {
+  margin-left: 20px;
+}
+
+header > div > div {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
