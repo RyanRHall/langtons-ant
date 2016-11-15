@@ -19,20 +19,21 @@ header div:last-of-type {
 }
 
 header div:last-of-type > * {
+  justify-content: flex-end;
   margin-left: 20px;
-}
-
-header > div > div {
-  font-size: 20px;
 }
 
 h1 {
   font-family: "Comic Sans MS", cursive, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 32px
 }
 
-img:hover {
+header img {
   cursor: pointer;
+}
+
+header img:hover {
   opacity: 0.8;
 }

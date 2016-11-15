@@ -5,8 +5,9 @@ if (typeof LangAnt === "undefined"){
 }
 
 function Game($container) {
-  this.$container = $("#container");
+  this.$container = $container;
   this.board = new LangAnt.Board();
+  this.infoWindow = new LangAnt.InfoWindow($container);
   this.steps = 0;
   this.stepDiv = $("#steps");
   this.$button = $("#start-btn");
@@ -17,8 +18,11 @@ function Game($container) {
 
 Game.prototype.addListeners = function () {
   this.$container.click(function(el){
+    if (this.infoWindow.open){ return; }
+
     var pos = $(el.target).data("pos");
     if (typeof pos === "undefined"){ return; }
+
     this.board.addAnt(pos.slice());
     this.board.drawAnts();
   }.bind(this));
@@ -49,7 +53,8 @@ Game.prototype.handleButtonClick = function () {
 
 // Document ready
 $(function(){
-  new Game();
+  $container = $("#container");
+  new Game($container);
 });
 
 })();

@@ -1,12 +1,7 @@
 
-body {
-  height: 100vh;
-  margin: 0;
-  padding: 0 50px;
-  font-family: sans-serif;
-}
 
 #container {
+  position: relative;
   cursor: pointer;
 }
 
@@ -18,7 +13,6 @@ body {
 .row div {
   height: calc((100vw - 100px) / 180);
   width: calc((100vw - 100px) / 180);
-  /*width: 100vw;*/
 }
 
 .black {

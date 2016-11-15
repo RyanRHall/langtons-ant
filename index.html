@@ -6,10 +6,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/ant.js"></script>
     <script type="text/javascript" src="js/board.js"></script>
+    <script type="text/javascript" src="js/info.js"></script>
     <script type="text/javascript" src="js/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" >
     <link rel="stylesheet" type="text/css" href="css/container.css" >
     <link rel="stylesheet" type="text/css" href="css/header.css" >
     <link rel="stylesheet" type="text/css" href="css/button.css" >
+    <link rel="stylesheet" type="text/css" href="css/info.css" >
 
   </head>
   <body>
@@ -22,14 +25,39 @@
       </div>
 
       <div>
-        <a href="#"><img src="assets/github.png" alt="github" /></a>
-        <a href="#"><img src="assets/me.png" alt="github" /></a>
-        <a href="#"><img src="assets/info.png" alt="github" /></a>
-      <div>
+        <a href="https://github.com/RyanRHall/langtons-ant" target="_blank">
+          <img src="assets/github.png" alt="github" />
+        </a>
+        <img src="assets/info.png" alt="github" id="info-icon"/>
+      </div>
 
     </header>
 
-    <main id="container"></main>
+    <main id="container">
+      <div id="info">
+        <div>
+          <h3>Ant Life</h3>
+          <p>Ants have 3 simple rules. Each iteration, an ant will:</p>
+          <ol>
+            <li>Turn right for a white square, left for black</li>
+            <li>Flip the color of the square</li>
+            <li>Move forward one space</li>
+          </ol>
+          <p>
+            Ants exhibit some incredible behavior:
+          </p>
+          <ul>
+            <li>Ants are <strong>deterministic</strong>. The same initial conditions
+              will always lead to the same ending.</li>
+            <li>Some configurations are <strong>oscillatory</strong>. The ants will
+              repeat their steps forever.</li>
+            <li>Some configurations are <strong>emergent</strong>. The ant(s) will
+              generate a recurrant pattern and procede indefinitely in one direction.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
   </body>
 </html>

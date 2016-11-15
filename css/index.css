@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0 50px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+h1, h3 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}

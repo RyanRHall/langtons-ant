@@ -1,0 +1,38 @@
+#info {
+  display: none;
+  cursor: default;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 6px 4px 4px #AAA;
+  border-radius: 15px;
+  z-index: 10;
+}
+
+#info > div {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  overflow: auto;
+  font-size: 22px;
+}
+
+#info h3 {
+  font-size: 28px;
+  margin: 0;
+  color: #DB162F;
+  text-align: center;
+}
+
+#info p {
+  margin-bottom: 0;
+}
+
+#info ul, #info ol {
+  margin-top: 0;
+}
