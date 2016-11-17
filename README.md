@@ -41,7 +41,7 @@ The grid is made of tiles whose width and height are dependent on the viewport w
 
 I chose to use JQuery because it significantly reduces the number of lines required for a handful of tasks:
   * Building the grid of squares
-  * Adding and removing multiple classes of DOM nodes
+  * Adding and removing multiple classes for DOM nodes
   * Adding fading transitions to the info window
 
 The site's modularity naturally breaks down into 4 classes: **Game**, **Board**, **Ant**, and **InfoWindow**. The `Ant` simply maintains it's position and direction. The `Board` manages the colors of tiles on the HTML grid, as well as a list of ants. The `InfoWindow` opens and closes a model of information about the game. The `game` class talks to all other classes; it controls playing/pausing and adding ants to the board.
