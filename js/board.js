@@ -18,9 +18,7 @@ Board.prototype.setup = function($container) {
     this.grid.push([]);
 
     for (var col = 0; col < 180; col++) {
-      var $div = $("<div>");
-      $div.attr("class", "black");
-      $div.data("pos", [row, col]);
+      var $div = $('<div class="black">');
       $row.append($div);
       this.grid[this.grid.length - 1].push($div);
     }
