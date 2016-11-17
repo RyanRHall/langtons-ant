@@ -14,7 +14,8 @@ function Board() {
 
 Board.prototype.setup = function($container) {
   for (var row = 0; row < 90; row++) {
-    var $row = $('<div class="row">');
+    var $row = $('<div>');
+    $row.attr("class", "row");
     this.grid.push([]);
 
     for (var col = 0; col < 180; col++) {
