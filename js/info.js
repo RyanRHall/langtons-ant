@@ -27,7 +27,7 @@ InfoWindow.prototype.close = function() {
 InfoWindow.prototype.addListeners = function() {
   $("body").click(this.close.bind(this));
   $("#info-icon").click(this.open.bind(this));
-  this.$info.click(function(e){ event.stopPropagation(); });
+  this.$info.click(function(e){ e.stopPropagation(); });
 };
 
 
