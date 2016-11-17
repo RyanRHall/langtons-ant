@@ -6,6 +6,8 @@ This game allows the user to place multiple ants on a grid of squares and watch 
   * Ants follow a pre-determined set of rules
   * Ants use those rules to affect the state of the grid
 
+---
+
 ### Rules
 
 Ants have simple rules. Each iteration, an ant will:
@@ -26,6 +28,8 @@ Ants exhibit some incredible behavior:
 
   <img src="assets/emerge1.gif" width="200"/>
   <img src="assets/emerge2.gif" width="200"/>
+
+---
 
 ### Design
 
