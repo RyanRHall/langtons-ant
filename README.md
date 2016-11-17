@@ -22,7 +22,7 @@ Ants exhibit some incredible behavior:
   <img src="assets/oscillate1.gif" width="200"/>
   <img src="assets/oscillate2.gif" width="200"/>
 
-  0. Some configurations are **emergent**. The ant(s) will generate a recurrent pattern and proceed indefinitely in one direction.
+  0. Some configurations are **emergent**. The ant(s) will generate a recurrent pattern and continue that sequence indefinitely.
 
   <img src="assets/emerge1.gif" width="200"/>
   <img src="assets/emerge2.gif" width="200"/>
