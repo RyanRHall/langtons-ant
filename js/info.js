@@ -30,6 +30,4 @@ InfoWindow.prototype.addListeners = function() {
   this.$info.click(function(e){ e.stopPropagation(); });
 };
 
-
-
 })();
