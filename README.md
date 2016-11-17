@@ -15,8 +15,8 @@ Ants exhibit some incredible behavior:
   0. Ants are deterministic. The same initial conditions will always lead to the same ending.
   0. Some configurations are oscillatory. The ants will repeat their steps forever.
 
-  ![oscillate](assets/oscillate1.gif)
-  ![oscillate](assets/oscillate2.gif)
+  <img src="oscillate1.gif" alt="Oscillate" style="width: 100px; display: inline-block; margin-right: 50px;"/>
+  <img src="oscillate2.gif" alt="Oscillate" style="width: 100px; display: inline-block; margin-right: 50px;"/>
 
   0. Some configurations are emergent. The ant(s) will generate a recurrent pattern and proceed indefinitely in one direction.
 
