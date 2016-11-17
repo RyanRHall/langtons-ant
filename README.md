@@ -17,11 +17,11 @@ Ants exhibit some incredible behavior:
 
 <img src="assets/oscillate1.gif"
      alt="Oscillate"
-     style="width: 100px; "/>
+     style="max-width: 100px; "/>
 
 <img src="assets/oscillate2.gif"
      alt="Oscillate"
-     style="width: 100px;"/>
+     style="max-width: 100px;"/>
 
   0. Some configurations are emergent. The ant(s) will generate a recurrent pattern and proceed indefinitely in one direction.
 
